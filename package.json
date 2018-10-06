@@ -1,16 +1,20 @@
 {
   "name": "weather-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Just a Workplace by Facebook bot demonstrating some of the very basic requirements when coding your first bot!",
+  "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
     "configure": "node src/configure.js",
     "tunnel": "ngrok http 3000",
     "lint": "eslint src/"
   },
-  "author": "",
+  "author": "Mark Wyman <dev@enablo.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enablo/weather-bot.git"
+  },
   "devDependencies": {
     "eslint": "^5.6.1",
     "eslint-config-airbnb-base": "^13.1.0",
